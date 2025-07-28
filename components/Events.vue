@@ -1,6 +1,6 @@
 <template>
     <section id="events" class="pt-24 mb-12 min-h-80">
-      <h2 class="text-2xl font-bold mb-4">イベント</h2>
+      <h2 class="text-2xl font-bold mb-4">Events</h2>
       <p>スコレーでは、定期的にイベントを開催しています。参加者同士が交流し、学び合う貴重な機会です。</p>
       <p>イベント情報は随時更新されるので、ぜひチェックしてください。</p>
     </section>

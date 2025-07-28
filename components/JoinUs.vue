@@ -1,7 +1,7 @@
 <template>
   <div>
     <section id="joinus" class="min-h-80 pt-24">
-      <h2 class="text-2xl font-bold mb-4"></h2>
+      <h2 class="text-2xl font-bold mb-4">Join Us</h2>
       <p>スコレーをすこれでは、Discordサーバーへの参加をお待ちしています！</p>
       <p>以下のリンクから参加できます。</p>
       <div class="flex justify-center items-center mt-24">

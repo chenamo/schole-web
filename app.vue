@@ -16,7 +16,7 @@
     <!-- 本体 -->
     <div class="header-and-contents bg-gray-100 min-h-screen" id="top">
       <Header />
-      <main class="container mx-auto py-8 px-4">
+      <main>
         <NuxtPage />
       </main>
     </div>
@@ -33,7 +33,7 @@ const isLoading = ref(true)
 onMounted(() => {
   setTimeout(() => {
     isLoading.value = false
-  }, 450) // 表示時間を変更したい場合はここ（ms単位）
+  }, 200) // 表示時間を変更したい場合はここ（ms単位）
 })
 
 const scrollTo = (id: string) => {
