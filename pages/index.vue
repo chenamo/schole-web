@@ -23,8 +23,8 @@
     </svg>
 
     <!-- サブタイトル（後からフェードイン） -->
-    <p class="text-xl sm:text-2xl mt-6 opacity-0 animate-fadein-delay">
-      知的探究心を共に刺激し合う
+    <p class="sub-title text-xl sm:text-2xl mt-6 opacity-0 animate-fadein-delay">
+      - 知的探究心を共に刺激し合う -
     </p>
   </section>
   <main class="container mx-auto py-8 px-4 flex flex-col items-center">
@@ -45,7 +45,7 @@
   html {
   scroll-behavior: smooth;
   }
-  body {
+  main {
   font-family: "Bitcount", system-ui;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -56,17 +56,14 @@
     "ELSH" 0,
     "ELXP" 0;
 }
-body {
+  main {
   font-family: "DotGothic16", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-
 /* SVG アニメーション */
 .svg-title {
-  font-size: 48px;
-  font-family: 'Caveat', 'Yu Mincho', serif;
   stroke: white;
   stroke-width: 1.5px;
   fill: none;
@@ -75,6 +72,23 @@ body {
   animation: handwriting 4s ease-out forwards;
   animation-delay: 1s;
     font-family: 'Caveat', cursive;
+}
+
+@media (max-width: 640px) {
+  .svg-title {
+    font-size: 96px;
+  }
+  .sub-title {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 641px) {
+  .svg-title {
+    font-size: 72px;
+  }
+  .sub-title {
+    font-size: 1.5rem;
+  }
 }
 
 @keyframes handwriting {
